@@ -1,0 +1,801 @@
+INFO:pyomo.util.infeasible:CONSTR const_1[1]: missing variable value =?= 1.0
+  - EXPR: x[1,1,1] + x[1,1,2] + x[1,2,1] + x[1,2,2] + x[1,4,1] + x[1,4,2] + x[1,6,1] + x[1,6,2] + y[1] =?= 1.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,1]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,1]: None
+  - VAR x[1,6,2]: None
+  - VAR y[1]: None
+INFO:pyomo.util.infeasible:CONSTR const_2[1]: missing variable value =?= 1.0
+  - EXPR: x[3,1,1] + x[3,2,1] + x[3,3,1] + x[3,5,1] =?= 1.0
+  - VAR x[3,1,1]: None
+  - VAR x[3,2,1]: None
+  - VAR x[3,3,1]: None
+  - VAR x[3,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_2[2]: missing variable value =?= 1.0
+  - EXPR: x[4,1,2] + x[4,2,2] + x[4,4,2] + x[4,6,2] =?= 1.0
+  - VAR x[4,1,2]: None
+  - VAR x[4,2,2]: None
+  - VAR x[4,4,2]: None
+  - VAR x[4,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[1,1]: missing variable value =?= 0.0
+  - EXPR: x[1,1,1] + x[1,2,1] + x[1,3,1] + x[1,5,1] - (x[1,1,1] + x[2,1,1] + x[3,1,1] + x[5,1,1]) =?= 0.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,3,1]: None
+  - VAR x[1,5,1]: None
+  - VAR x[2,1,1]: None
+  - VAR x[3,1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[1,2]: missing variable value =?= 0.0
+  - EXPR: x[1,1,2] + x[1,2,2] + x[1,4,2] + x[1,6,2] - (x[1,1,2] + x[2,1,2] + x[4,1,2] + x[6,1,2]) =?= 0.0
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,2]: None
+  - VAR x[2,1,2]: None
+  - VAR x[4,1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[2,1]: missing variable value =?= 0.0
+  - EXPR: x[2,1,1] + x[2,2,1] + x[2,3,1] + x[2,5,1] - (x[1,2,1] + x[2,2,1] + x[3,2,1] + x[5,2,1]) =?= 0.0
+  - VAR x[2,1,1]: None
+  - VAR x[2,2,1]: None
+  - VAR x[2,3,1]: None
+  - VAR x[2,5,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[3,2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[2,2]: missing variable value =?= 0.0
+  - EXPR: x[2,1,2] + x[2,2,2] + x[2,4,2] + x[2,6,2] - (x[1,2,2] + x[2,2,2] + x[4,2,2] + x[6,2,2]) =?= 0.0
+  - VAR x[2,1,2]: None
+  - VAR x[2,2,2]: None
+  - VAR x[2,4,2]: None
+  - VAR x[2,6,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[4,2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_4[1]: missing variable value =?= 1.0
+  - EXPR: x[1,5,1] + x[2,5,1] + x[3,5,1] + x[5,5,1] =?= 1.0
+  - VAR x[1,5,1]: None
+  - VAR x[2,5,1]: None
+  - VAR x[3,5,1]: None
+  - VAR x[5,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_4[2]: missing variable value =?= 1.0
+  - EXPR: x[1,6,2] + x[2,6,2] + x[4,6,2] + x[6,6,2] =?= 1.0
+  - VAR x[1,6,2]: None
+  - VAR x[2,6,2]: None
+  - VAR x[4,6,2]: None
+  - VAR x[6,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[1,1,1]: missing variable value <?= 0.0
+  - EXPR: l[1,1] + 2368 - l[1,1] - 16500*(1 - x[1,1,1]) <?= 0.0
+  - VAR l[1,1]: None
+  - VAR x[1,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[1,1,2]: missing variable value <?= 0.0
+  - EXPR: l[1,2] + 2368 - l[1,2] - 5800*(1 - x[1,1,2]) <?= 0.0
+  - VAR l[1,2]: None
+  - VAR x[1,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[2,1,1]: missing variable value <?= 0.0
+  - EXPR: l[2,1] + 2368 - l[1,1] - 16500*(1 - x[2,1,1]) <?= 0.0
+  - VAR l[2,1]: None
+  - VAR l[1,1]: None
+  - VAR x[2,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[2,1,2]: missing variable value <?= 0.0
+  - EXPR: l[2,2] + 2368 - l[1,2] - 5800*(1 - x[2,1,2]) <?= 0.0
+  - VAR l[2,2]: None
+  - VAR l[1,2]: None
+  - VAR x[2,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[3,1,1]: missing variable value <?= 0.0
+  - EXPR: l[3,1] + 2368 - l[1,1] - 16500*(1 - x[3,1,1]) <?= 0.0
+  - VAR l[3,1]: None
+  - VAR l[1,1]: None
+  - VAR x[3,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[5,1,1]: missing variable value <?= 0.0
+  - EXPR: l[5,1] + 2368 - l[1,1] - 16500*(1 - x[5,1,1]) <?= 0.0
+  - VAR l[5,1]: None
+  - VAR l[1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[4,1,2]: missing variable value <?= 0.0
+  - EXPR: l[4,2] + 2368 - l[1,2] - 5800*(1 - x[4,1,2]) <?= 0.0
+  - VAR l[4,2]: None
+  - VAR l[1,2]: None
+  - VAR x[4,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[6,1,2]: missing variable value <?= 0.0
+  - EXPR: l[6,2] + 2368 - l[1,2] - 5800*(1 - x[6,1,2]) <?= 0.0
+  - VAR l[6,2]: None
+  - VAR l[1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[1,1,1]: missing variable value <?= 0.0
+  - EXPR: l[1,1] - 2368 - l[2,1] - 16500*(1 - x[1,2,1]) <?= 0.0
+  - VAR l[1,1]: None
+  - VAR l[2,1]: None
+  - VAR x[1,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[1,1,2]: missing variable value <?= 0.0
+  - EXPR: l[1,2] - 2368 - l[2,2] - 5800*(1 - x[1,2,2]) <?= 0.0
+  - VAR l[1,2]: None
+  - VAR l[2,2]: None
+  - VAR x[1,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[2,1,1]: missing variable value <?= 0.0
+  - EXPR: l[2,1] - 2368 - l[2,1] - 16500*(1 - x[2,2,1]) <?= 0.0
+  - VAR l[2,1]: None
+  - VAR x[2,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[2,1,2]: missing variable value <?= 0.0
+  - EXPR: l[2,2] - 2368 - l[2,2] - 5800*(1 - x[2,2,2]) <?= 0.0
+  - VAR l[2,2]: None
+  - VAR x[2,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[3,1,1]: missing variable value <?= 0.0
+  - EXPR: l[3,1] - 2368 - l[2,1] - 16500*(1 - x[3,2,1]) <?= 0.0
+  - VAR l[3,1]: None
+  - VAR l[2,1]: None
+  - VAR x[3,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[5,1,1]: missing variable value <?= 0.0
+  - EXPR: l[5,1] - 2368 - l[2,1] - 16500*(1 - x[5,2,1]) <?= 0.0
+  - VAR l[5,1]: None
+  - VAR l[2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[4,1,2]: missing variable value <?= 0.0
+  - EXPR: l[4,2] - 2368 - l[2,2] - 5800*(1 - x[4,2,2]) <?= 0.0
+  - VAR l[4,2]: None
+  - VAR l[2,2]: None
+  - VAR x[4,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[6,1,2]: missing variable value <?= 0.0
+  - EXPR: l[6,2] - 2368 - l[2,2] - 5800*(1 - x[6,2,2]) <?= 0.0
+  - VAR l[6,2]: None
+  - VAR l[2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_ub[1,1]: missing variable value <?= 16500.0
+  - EXPR: l[1,1] <?= 16500.0
+  - VAR l[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_ub[1,2]: missing variable value <?= 5800.0
+  - EXPR: l[1,2] <?= 5800.0
+  - VAR l[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_lb[1,1]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= l[1,1]
+  - VAR l[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_lb[1,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= l[1,2]
+  - VAR l[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,1,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 11 - t[1,1] - 466*(1 - x[1,1,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR x[1,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,1,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 11 - t[1,2] - 466*(1 - x[1,1,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR x[1,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,2,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 60 - t[2,1] - 515*(1 - x[1,2,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[2,1]: None
+  - VAR x[1,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,2,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 64 - t[2,2] - 519*(1 - x[1,2,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[2,2]: None
+  - VAR x[1,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,3,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 88 - t[3,1] - 543*(1 - x[1,3,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[3,1]: None
+  - VAR x[1,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,5,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] - t[5,1] - 455*(1 - x[1,5,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[5,1]: None
+  - VAR x[1,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,4,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 14 - t[4,2] - 469*(1 - x[1,4,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[4,2]: None
+  - VAR x[1,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,6,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] - t[6,2] - 455*(1 - x[1,6,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[6,2]: None
+  - VAR x[1,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,1,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 58 - t[1,1] - 835*(1 - x[2,1,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[1,1]: None
+  - VAR x[2,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,1,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 62 - t[1,2] - 839*(1 - x[2,1,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[1,2]: None
+  - VAR x[2,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,2,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 9 - t[2,1] - 786*(1 - x[2,2,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR x[2,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,2,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 9 - t[2,2] - 786*(1 - x[2,2,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR x[2,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,3,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 49 - t[3,1] - 826*(1 - x[2,3,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[3,1]: None
+  - VAR x[2,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,5,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] - t[5,1] - 777*(1 - x[2,5,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[5,1]: None
+  - VAR x[2,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,4,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 61 - t[4,2] - 838*(1 - x[2,4,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[4,2]: None
+  - VAR x[2,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,6,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] - t[6,2] - 777*(1 - x[2,6,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[6,2]: None
+  - VAR x[2,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,1,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] + 77 - t[1,1] - 146*(1 - x[3,1,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[1,1]: None
+  - VAR x[3,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,2,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] + 40 - t[2,1] - 109*(1 - x[3,2,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[2,1]: None
+  - VAR x[3,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,3,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] - t[3,1] - 69*(1 - x[3,3,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR x[3,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,5,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] - t[5,1] - 69*(1 - x[3,5,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[5,1]: None
+  - VAR x[3,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,1,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[1,1] - 100000*(1 - x[5,1,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,2,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[2,1] - 100000*(1 - x[5,2,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,3,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[3,1] - 100000*(1 - x[5,3,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[3,1]: None
+  - VAR x[5,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,5,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[5,1] - 100000*(1 - x[5,5,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR x[5,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,1,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] + 3 - t[1,2] - 3*(1 - x[4,1,2]) <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[1,2]: None
+  - VAR x[4,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,2,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] + 52 - t[2,2] - 52*(1 - x[4,2,2]) <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[2,2]: None
+  - VAR x[4,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,4,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] - t[4,2] <?= 0.0
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,6,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] - t[6,2] <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,1,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[1,2] - 100000*(1 - x[6,1,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,2,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[2,2] - 100000*(1 - x[6,2,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,4,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[4,2] - 100000*(1 - x[6,4,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[4,2]: None
+  - VAR x[6,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,6,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[6,2] - 100000*(1 - x[6,6,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR x[6,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_9[1,1]: missing variable value =?= 0.0
+  - EXPR: x[1,1,1] + x[1,2,1] + x[1,3,1] + x[1,5,1] - (x[2,1,1] + x[2,2,1] + x[2,3,1] + x[2,5,1]) =?= 0.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,3,1]: None
+  - VAR x[1,5,1]: None
+  - VAR x[2,1,1]: None
+  - VAR x[2,2,1]: None
+  - VAR x[2,3,1]: None
+  - VAR x[2,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_9[1,2]: missing variable value =?= 0.0
+  - EXPR: x[1,1,2] + x[1,2,2] + x[1,4,2] + x[1,6,2] - (x[2,1,2] + x[2,2,2] + x[2,4,2] + x[2,6,2]) =?= 0.0
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,2]: None
+  - VAR x[2,1,2]: None
+  - VAR x[2,2,2]: None
+  - VAR x[2,4,2]: None
+  - VAR x[2,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_10[1,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 60 - t[2,1] <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_10[1,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 64 - t[2,2] <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[1,1]: missing variable value <?= 455.0
+  - EXPR: t[1,1] <?= 455.0
+  - VAR t[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[1,2]: missing variable value <?= 455.0
+  - EXPR: t[1,2] <?= 455.0
+  - VAR t[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[2,1]: missing variable value <?= 777.0
+  - EXPR: t[2,1] <?= 777.0
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[2,2]: missing variable value <?= 777.0
+  - EXPR: t[2,2] <?= 777.0
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[3,1]: missing variable value <?= 69.0
+  - EXPR: t[3,1] <?= 69.0
+  - VAR t[3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[5,1]: missing variable value <?= 100000.0
+  - EXPR: t[5,1] <?= 100000.0
+  - VAR t[5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[4,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] <?= 0.0
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[6,2]: missing variable value <?= 100000.0
+  - EXPR: t[6,2] <?= 100000.0
+  - VAR t[6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[1,1]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[1,1]
+  - VAR t[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[1,2]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[1,2]
+  - VAR t[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[2,1]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[2,1]
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[2,2]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[2,2]
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[3,1]: 69.0 <?= missing variable value
+  - EXPR: 69.0 <?= t[3,1]
+  - VAR t[3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[5,1]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[5,1]
+  - VAR t[5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[4,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[4,2]
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[6,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[6,2]
+  - VAR t[6,2]: None
+WARNING:pyomo.core:Loading a SolverResults object with a warning status into model.name="unknown";
+  - termination condition: infeasible
+  - message from solver: Model was proven to be infeasible.
+INFO:pyomo.util.infeasible:CONSTR const_1[1]: missing variable value =?= 1.0
+  - EXPR: x[1,1,1] + x[1,1,2] + x[1,2,1] + x[1,2,2] + x[1,4,1] + x[1,4,2] + x[1,6,1] + x[1,6,2] + y[1] =?= 1.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,1]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,1]: None
+  - VAR x[1,6,2]: None
+  - VAR y[1]: None
+INFO:pyomo.util.infeasible:CONSTR const_2[1]: missing variable value =?= 1.0
+  - EXPR: x[3,1,1] + x[3,2,1] + x[3,3,1] + x[3,5,1] =?= 1.0
+  - VAR x[3,1,1]: None
+  - VAR x[3,2,1]: None
+  - VAR x[3,3,1]: None
+  - VAR x[3,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_2[2]: missing variable value =?= 1.0
+  - EXPR: x[4,1,2] + x[4,2,2] + x[4,4,2] + x[4,6,2] =?= 1.0
+  - VAR x[4,1,2]: None
+  - VAR x[4,2,2]: None
+  - VAR x[4,4,2]: None
+  - VAR x[4,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[1,1]: missing variable value =?= 0.0
+  - EXPR: x[1,1,1] + x[1,2,1] + x[1,3,1] + x[1,5,1] - (x[1,1,1] + x[2,1,1] + x[3,1,1] + x[5,1,1]) =?= 0.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,3,1]: None
+  - VAR x[1,5,1]: None
+  - VAR x[2,1,1]: None
+  - VAR x[3,1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[1,2]: missing variable value =?= 0.0
+  - EXPR: x[1,1,2] + x[1,2,2] + x[1,4,2] + x[1,6,2] - (x[1,1,2] + x[2,1,2] + x[4,1,2] + x[6,1,2]) =?= 0.0
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,2]: None
+  - VAR x[2,1,2]: None
+  - VAR x[4,1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[2,1]: missing variable value =?= 0.0
+  - EXPR: x[2,1,1] + x[2,2,1] + x[2,3,1] + x[2,5,1] - (x[1,2,1] + x[2,2,1] + x[3,2,1] + x[5,2,1]) =?= 0.0
+  - VAR x[2,1,1]: None
+  - VAR x[2,2,1]: None
+  - VAR x[2,3,1]: None
+  - VAR x[2,5,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[3,2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_3[2,2]: missing variable value =?= 0.0
+  - EXPR: x[2,1,2] + x[2,2,2] + x[2,4,2] + x[2,6,2] - (x[1,2,2] + x[2,2,2] + x[4,2,2] + x[6,2,2]) =?= 0.0
+  - VAR x[2,1,2]: None
+  - VAR x[2,2,2]: None
+  - VAR x[2,4,2]: None
+  - VAR x[2,6,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[4,2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_4[1]: missing variable value =?= 1.0
+  - EXPR: x[1,5,1] + x[2,5,1] + x[3,5,1] + x[5,5,1] =?= 1.0
+  - VAR x[1,5,1]: None
+  - VAR x[2,5,1]: None
+  - VAR x[3,5,1]: None
+  - VAR x[5,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_4[2]: missing variable value =?= 1.0
+  - EXPR: x[1,6,2] + x[2,6,2] + x[4,6,2] + x[6,6,2] =?= 1.0
+  - VAR x[1,6,2]: None
+  - VAR x[2,6,2]: None
+  - VAR x[4,6,2]: None
+  - VAR x[6,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[1,1,1]: missing variable value <?= 0.0
+  - EXPR: l[1,1] + 2368 - l[1,1] - 16500*(1 - x[1,1,1]) <?= 0.0
+  - VAR l[1,1]: None
+  - VAR x[1,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[1,1,2]: missing variable value <?= 0.0
+  - EXPR: l[1,2] + 2368 - l[1,2] - 5800*(1 - x[1,1,2]) <?= 0.0
+  - VAR l[1,2]: None
+  - VAR x[1,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[2,1,1]: missing variable value <?= 0.0
+  - EXPR: l[2,1] + 2368 - l[1,1] - 16500*(1 - x[2,1,1]) <?= 0.0
+  - VAR l[2,1]: None
+  - VAR l[1,1]: None
+  - VAR x[2,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[2,1,2]: missing variable value <?= 0.0
+  - EXPR: l[2,2] + 2368 - l[1,2] - 5800*(1 - x[2,1,2]) <?= 0.0
+  - VAR l[2,2]: None
+  - VAR l[1,2]: None
+  - VAR x[2,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[3,1,1]: missing variable value <?= 0.0
+  - EXPR: l[3,1] + 2368 - l[1,1] - 16500*(1 - x[3,1,1]) <?= 0.0
+  - VAR l[3,1]: None
+  - VAR l[1,1]: None
+  - VAR x[3,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[5,1,1]: missing variable value <?= 0.0
+  - EXPR: l[5,1] + 2368 - l[1,1] - 16500*(1 - x[5,1,1]) <?= 0.0
+  - VAR l[5,1]: None
+  - VAR l[1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[4,1,2]: missing variable value <?= 0.0
+  - EXPR: l[4,2] + 2368 - l[1,2] - 5800*(1 - x[4,1,2]) <?= 0.0
+  - VAR l[4,2]: None
+  - VAR l[1,2]: None
+  - VAR x[4,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_5[6,1,2]: missing variable value <?= 0.0
+  - EXPR: l[6,2] + 2368 - l[1,2] - 5800*(1 - x[6,1,2]) <?= 0.0
+  - VAR l[6,2]: None
+  - VAR l[1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[1,1,1]: missing variable value <?= 0.0
+  - EXPR: l[1,1] - 2368 - l[2,1] - 16500*(1 - x[1,2,1]) <?= 0.0
+  - VAR l[1,1]: None
+  - VAR l[2,1]: None
+  - VAR x[1,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[1,1,2]: missing variable value <?= 0.0
+  - EXPR: l[1,2] - 2368 - l[2,2] - 5800*(1 - x[1,2,2]) <?= 0.0
+  - VAR l[1,2]: None
+  - VAR l[2,2]: None
+  - VAR x[1,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[2,1,1]: missing variable value <?= 0.0
+  - EXPR: l[2,1] - 2368 - l[2,1] - 16500*(1 - x[2,2,1]) <?= 0.0
+  - VAR l[2,1]: None
+  - VAR x[2,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[2,1,2]: missing variable value <?= 0.0
+  - EXPR: l[2,2] - 2368 - l[2,2] - 5800*(1 - x[2,2,2]) <?= 0.0
+  - VAR l[2,2]: None
+  - VAR x[2,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[3,1,1]: missing variable value <?= 0.0
+  - EXPR: l[3,1] - 2368 - l[2,1] - 16500*(1 - x[3,2,1]) <?= 0.0
+  - VAR l[3,1]: None
+  - VAR l[2,1]: None
+  - VAR x[3,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[5,1,1]: missing variable value <?= 0.0
+  - EXPR: l[5,1] - 2368 - l[2,1] - 16500*(1 - x[5,2,1]) <?= 0.0
+  - VAR l[5,1]: None
+  - VAR l[2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[4,1,2]: missing variable value <?= 0.0
+  - EXPR: l[4,2] - 2368 - l[2,2] - 5800*(1 - x[4,2,2]) <?= 0.0
+  - VAR l[4,2]: None
+  - VAR l[2,2]: None
+  - VAR x[4,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_6[6,1,2]: missing variable value <?= 0.0
+  - EXPR: l[6,2] - 2368 - l[2,2] - 5800*(1 - x[6,2,2]) <?= 0.0
+  - VAR l[6,2]: None
+  - VAR l[2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_ub[1,1]: missing variable value <?= 16500.0
+  - EXPR: l[1,1] <?= 16500.0
+  - VAR l[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_ub[1,2]: missing variable value <?= 5800.0
+  - EXPR: l[1,2] <?= 5800.0
+  - VAR l[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_lb[1,1]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= l[1,1]
+  - VAR l[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_7_lb[1,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= l[1,2]
+  - VAR l[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,1,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 11 - t[1,1] - 466*(1 - x[1,1,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR x[1,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,1,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 11 - t[1,2] - 466*(1 - x[1,1,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR x[1,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,2,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 60 - t[2,1] - 515*(1 - x[1,2,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[2,1]: None
+  - VAR x[1,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,2,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 64 - t[2,2] - 519*(1 - x[1,2,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[2,2]: None
+  - VAR x[1,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,3,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 88 - t[3,1] - 543*(1 - x[1,3,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[3,1]: None
+  - VAR x[1,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,5,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] - t[5,1] - 455*(1 - x[1,5,1]) <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[5,1]: None
+  - VAR x[1,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,4,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 14 - t[4,2] - 469*(1 - x[1,4,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[4,2]: None
+  - VAR x[1,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[1,6,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] - t[6,2] - 455*(1 - x[1,6,2]) <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[6,2]: None
+  - VAR x[1,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,1,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 58 - t[1,1] - 835*(1 - x[2,1,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[1,1]: None
+  - VAR x[2,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,1,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 62 - t[1,2] - 839*(1 - x[2,1,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[1,2]: None
+  - VAR x[2,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,2,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 9 - t[2,1] - 786*(1 - x[2,2,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR x[2,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,2,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 9 - t[2,2] - 786*(1 - x[2,2,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR x[2,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,3,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] + 49 - t[3,1] - 826*(1 - x[2,3,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[3,1]: None
+  - VAR x[2,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,5,1]: missing variable value <?= 0.0
+  - EXPR: t[2,1] - t[5,1] - 777*(1 - x[2,5,1]) <?= 0.0
+  - VAR t[2,1]: None
+  - VAR t[5,1]: None
+  - VAR x[2,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,4,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] + 61 - t[4,2] - 838*(1 - x[2,4,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[4,2]: None
+  - VAR x[2,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[2,6,2]: missing variable value <?= 0.0
+  - EXPR: t[2,2] - t[6,2] - 777*(1 - x[2,6,2]) <?= 0.0
+  - VAR t[2,2]: None
+  - VAR t[6,2]: None
+  - VAR x[2,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,1,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] + 77 - t[1,1] - 146*(1 - x[3,1,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[1,1]: None
+  - VAR x[3,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,2,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] + 40 - t[2,1] - 109*(1 - x[3,2,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[2,1]: None
+  - VAR x[3,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,3,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] - t[3,1] - 69*(1 - x[3,3,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR x[3,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[3,5,1]: missing variable value <?= 0.0
+  - EXPR: t[3,1] - t[5,1] - 69*(1 - x[3,5,1]) <?= 0.0
+  - VAR t[3,1]: None
+  - VAR t[5,1]: None
+  - VAR x[3,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,1,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[1,1] - 100000*(1 - x[5,1,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[1,1]: None
+  - VAR x[5,1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,2,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[2,1] - 100000*(1 - x[5,2,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[2,1]: None
+  - VAR x[5,2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,3,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[3,1] - 100000*(1 - x[5,3,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR t[3,1]: None
+  - VAR x[5,3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[5,5,1]: missing variable value <?= 0.0
+  - EXPR: t[5,1] - t[5,1] - 100000*(1 - x[5,5,1]) <?= 0.0
+  - VAR t[5,1]: None
+  - VAR x[5,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,1,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] + 3 - t[1,2] - 3*(1 - x[4,1,2]) <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[1,2]: None
+  - VAR x[4,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,2,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] + 52 - t[2,2] - 52*(1 - x[4,2,2]) <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[2,2]: None
+  - VAR x[4,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,4,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] - t[4,2] <?= 0.0
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[4,6,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] - t[6,2] <?= 0.0
+  - VAR t[4,2]: None
+  - VAR t[6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,1,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[1,2] - 100000*(1 - x[6,1,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[1,2]: None
+  - VAR x[6,1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,2,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[2,2] - 100000*(1 - x[6,2,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[2,2]: None
+  - VAR x[6,2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,4,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[4,2] - 100000*(1 - x[6,4,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR t[4,2]: None
+  - VAR x[6,4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_8[6,6,2]: missing variable value <?= 0.0
+  - EXPR: t[6,2] - t[6,2] - 100000*(1 - x[6,6,2]) <?= 0.0
+  - VAR t[6,2]: None
+  - VAR x[6,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_9[1,1]: missing variable value =?= 0.0
+  - EXPR: x[1,1,1] + x[1,2,1] + x[1,3,1] + x[1,5,1] - (x[2,1,1] + x[2,2,1] + x[2,3,1] + x[2,5,1]) =?= 0.0
+  - VAR x[1,1,1]: None
+  - VAR x[1,2,1]: None
+  - VAR x[1,3,1]: None
+  - VAR x[1,5,1]: None
+  - VAR x[2,1,1]: None
+  - VAR x[2,2,1]: None
+  - VAR x[2,3,1]: None
+  - VAR x[2,5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_9[1,2]: missing variable value =?= 0.0
+  - EXPR: x[1,1,2] + x[1,2,2] + x[1,4,2] + x[1,6,2] - (x[2,1,2] + x[2,2,2] + x[2,4,2] + x[2,6,2]) =?= 0.0
+  - VAR x[1,1,2]: None
+  - VAR x[1,2,2]: None
+  - VAR x[1,4,2]: None
+  - VAR x[1,6,2]: None
+  - VAR x[2,1,2]: None
+  - VAR x[2,2,2]: None
+  - VAR x[2,4,2]: None
+  - VAR x[2,6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_10[1,1]: missing variable value <?= 0.0
+  - EXPR: t[1,1] + 60 - t[2,1] <?= 0.0
+  - VAR t[1,1]: None
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_10[1,2]: missing variable value <?= 0.0
+  - EXPR: t[1,2] + 64 - t[2,2] <?= 0.0
+  - VAR t[1,2]: None
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[1,1]: missing variable value <?= 455.0
+  - EXPR: t[1,1] <?= 455.0
+  - VAR t[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[1,2]: missing variable value <?= 455.0
+  - EXPR: t[1,2] <?= 455.0
+  - VAR t[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[2,1]: missing variable value <?= 777.0
+  - EXPR: t[2,1] <?= 777.0
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[2,2]: missing variable value <?= 777.0
+  - EXPR: t[2,2] <?= 777.0
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[3,1]: missing variable value <?= 69.0
+  - EXPR: t[3,1] <?= 69.0
+  - VAR t[3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[5,1]: missing variable value <?= 100000.0
+  - EXPR: t[5,1] <?= 100000.0
+  - VAR t[5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[4,2]: missing variable value <?= 0.0
+  - EXPR: t[4,2] <?= 0.0
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_ub[6,2]: missing variable value <?= 100000.0
+  - EXPR: t[6,2] <?= 100000.0
+  - VAR t[6,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[1,1]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[1,1]
+  - VAR t[1,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[1,2]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[1,2]
+  - VAR t[1,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[2,1]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[2,1]
+  - VAR t[2,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[2,2]: 383.0 <?= missing variable value
+  - EXPR: 383.0 <?= t[2,2]
+  - VAR t[2,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[3,1]: 69.0 <?= missing variable value
+  - EXPR: 69.0 <?= t[3,1]
+  - VAR t[3,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[5,1]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[5,1]
+  - VAR t[5,1]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[4,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[4,2]
+  - VAR t[4,2]: None
+INFO:pyomo.util.infeasible:CONSTR const_11_lb[6,2]: 0.0 <?= missing variable value
+  - EXPR: 0.0 <?= t[6,2]
+  - VAR t[6,2]: None
+WARNING:pyomo.core:Loading a SolverResults object with a warning status into model.name="unknown";
+  - termination condition: infeasible
+  - message from solver: Model was proven to be infeasible.
+ERROR:pyomo.core:evaluating object as numeric value: x[1,1,1]
+    (object: <class 'pyomo.core.base.var._GeneralVarData'>)
+No value for uninitialized NumericValue object x[1,1,1]
+INFO:pyomo.util.infeasible:CONSTR const_3[2,1]: missing variable value =?= 0.0
+  - EXPR: x[2,1,1] + x[2,2,1] + x[2,3,1] + x[2,5,1] - (x[1,2,1] + x[2,2,1] + x[3,2,1] + x[5,2,1]) =?= 0.0
+  - VAR x[2,1,1]: 0.0
+  - VAR x[2,2,1]: None
+  - VAR x[2,3,1]: 0.0
+  - VAR x[2,5,1]: 0.0
+  - VAR x[1,2,1]: 0.0
+  - VAR x[3,2,1]: 0.0
+  - VAR x[5,2,1]: 0.0
+INFO:pyomo.util.infeasible:CONSTR const_3[2,2]: missing variable value =?= 0.0
+  - EXPR: x[2,1,2] + x[2,2,2] + x[2,4,2] + x[2,6,2] - (x[1,2,2] + x[2,2,2] + x[4,2,2] + x[6,2,2]) =?= 0.0
+  - VAR x[2,1,2]: 0.0
+  - VAR x[2,2,2]: None
+  - VAR x[2,4,2]: 0.0
+  - VAR x[2,6,2]: 0.0
+  - VAR x[1,2,2]: 0.0
+  - VAR x[4,2,2]: 0.0
+  - VAR x[6,2,2]: 0.0
+ERROR:pyomo.core:Rule failed when generating expression for Constraint const_1 with index 1:
+UnboundLocalError: local variable 'v' referenced before assignment
+ERROR:pyomo.core:Constructing component 'const_1' from data=None failed:
+UnboundLocalError: local variable 'v' referenced before assignment
